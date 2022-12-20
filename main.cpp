@@ -25,7 +25,7 @@ int main() {
          }
          err = (abs((b-a)/2));
       }
-   } while (err >= (1/(pow(M_E, 6))));
+   } while (err >= 0.00002);
    
    x = x*10000;
    float risultato1 = int (x);
