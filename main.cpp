@@ -27,9 +27,9 @@ int main() {
       }
    } while (err >= (1/(pow(M_E, 6))));
    
-   x = x*1000;
+   x = x*10000;
    float risultato1 = int (x);
-   float risultato2 = risultato1/1000;
+   float risultato2 = risultato1/10000;
    cout << risultato2;
    
    return 0;
